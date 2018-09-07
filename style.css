@@ -1,0 +1,157 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #837669;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #649632;
+}
+
+h1 { font-size: 36px; 
+color:#0f3bd2;
+text-shadow:   0 0 5px rgba(0,0,0,0.2);
+}
+
+h2 { font-size: 18px; }
+
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow:   0 0 5px rgba(0,0,0,0.2);
+}
+.p1{
+	color:#4e77fc;
+	font-weight: 700;
+	text-shadow:   0 0 5px rgba(0,0,0,0.3);
+
+}
+
+
+#header-wrapper {
+	width: 880px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 960px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+	width: 540px;
+	height: 40px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 16px 0 0 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	height: 25px;
+	padding-top: 10px;
+	color:#4e77fc;
+	font-weight:700;
+	font-size:18px;
+	opacity:.6;
+
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 0px 0px 0 20px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:blue;
+	font-weight:700;
+	text-shadow:   0 0 5px rgba(0,0,0,0.2);
+}
+
+#menu a:hover { text-decoration: underline; }
+
+#menu .current_page_item a {
+	color: blue;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 305px;
+	height: 26px;
+}
+
+#search form {
+	float: right;
+	margin: 0;
+	padding: 10px 20px 0 0;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search input {
+	float: left;
+	font: 12px Georgia, "Times New Roman", Times, serif;
+	border: none;
+}
+
+#search-text {
+	width: 135px;
+	height: 18px;
+	padding: 3px 0 0 5px;
+	background: #ECF9E4;
+	color: #658453;
+}
+
+#search-submit {
+	height: 21px;
+	margin-left: 12px;
+	color: #39561D;
+}
+
+
+.btn{
+	font-size: 0.9rem;
+	color:white;
+}
+button{
+	width:120px;
+}
+
+#search fieldset{
+	padding-top:6px!important;
+}
+#image{
+	height:Auto;
+	width:100%;
+}
+#login{
+	background-color: white;
+	border-color: #87ceeb00;
+	box-shadow: 0.5px 1.5px 2px 0.5px skyblue;
+	color:blue;
+}
