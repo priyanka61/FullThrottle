@@ -155,3 +155,12 @@ button{
 	box-shadow: 0.5px 1.5px 2px 0.5px skyblue;
 	color:blue;
 }
+@media screen and (max-width: 992px) {
+  #header {
+	margin-left:70px;
+  }
+  img{
+	  height:550px;
+  
+  }
+}
